@@ -33,6 +33,7 @@ Developed in collaboration with **Langara College’s Post-Degree Diploma in Dat
   - Non-linear models (MLP – Multi-Layer Perceptron)
   - Ensemble methods (Stacked Regression, Random Forest)
 - Evaluated using metrics such as RMSE, MAE, MAPE, and R².
+- ## Optimizing Yield:![Optimizing Yield](images/optimizing_yield.png)
 
 ### Anomaly Detection
 - Labeled outputs as **normal** or **anomalous** based on an 80% glycol yield threshold.
@@ -40,11 +41,13 @@ Developed in collaboration with **Langara College’s Post-Degree Diploma in Dat
   - **Unsupervised models**: Gaussian Mixture Model (GMM), Isolation Forest, One-Class SVM, DBSCAN.
   - **Supervised models**: Logistic Regression, XGBoost, SVC, kNN, and a Stacked Ensemble.
 - Assessed performance using AUC, precision, recall, and F1-score to identify the most reliable early warning indicators.
+- ![Anomaly](images/anomoly.png) 
 
 ### Optimization Modeling
 - Selected the **Stacked Regression Model** (most accurate for PG yield) as the fitness function.
 - Applied a **Genetic Algorithm (GA)** to iteratively evolve the best combination of process inputs that maximize PG output.
 - Identified optimal parameter ranges that led to a **predicted PG yield improvement of over 7%**, with a theoretical model output exceeding 100% (actual feasibility to be validated with cost and operational constraints).
+- ![Optimal Values](images/optimal_values.png)
 
 ---
 
