@@ -33,7 +33,7 @@ Developed in collaboration with **Langara College’s Post-Degree Diploma in Dat
   - Non-linear models (MLP – Multi-Layer Perceptron)
   - Ensemble methods (Stacked Regression, Random Forest)
 - Evaluated using metrics such as RMSE, MAE, MAPE, and R².
-  ## Optimizing Yield:![Optimizing Yield](images/optimizing_yield.png)
+  ![Optimizing Yield](images/optimizing_yield.png)
 
 ### Anomaly Detection
 - Labeled outputs as **normal** or **anomalous** based on an 80% glycol yield threshold.
